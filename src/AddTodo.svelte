@@ -12,7 +12,7 @@
 
   let newTodo = "";
   const addTodo = () => {
-    $todos = [...$todos, { id: newId, job: newTodo, completed: false }];
+    $todos = [...$todos, { id: newId, job: newTodo, isCompleted: false }];
     newTodo = "";
   };
 </script>
